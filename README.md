@@ -71,11 +71,11 @@ dotnet run
 
 ### API Endpoints
 ```bash
-GET /api/users
+GET /api/user/getUsers
 ```
 Retrieves the list of users.
 ```bash
-POST /api/users
+POST /api/user/addUsers
 ```
 Adds a new user. The request body should contain the user’s information in the following format:
 ```bash
